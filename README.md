@@ -94,4 +94,23 @@ Finally , we connect each point and from a sphere which contain lots of triangle
 
 <img width="447" alt="截屏2022-11-10 下午8 11 03" src="https://user-images.githubusercontent.com/76422688/201467507-15d8ff3d-c771-4315-884a-c1cef87f0ca6.png">
 
+## How achieve shader
+Now , we take a triangle from this sphere
+<img width="549" alt="截屏2022-11-10 下午8 44 58" src="https://user-images.githubusercontent.com/76422688/201467596-7cfa9d34-ff10-4522-9a75-2a1fc879aede.png">
+
+We must know the normal of this triangle 
+this triangle contain three points
+we can use three points to from two line equation
+
+```
+line1=point1+λ(point1-point2)
+line2=point2+μ(point3-point2)
+```
+So we can use two direction vectors to from a normal
+```
+normal=(point1-point2)x(point3-point2)
+```
+The red bar is the normal of the triangle
+
+<img width="549" alt="截屏2022-11-10 下午8 49 34" src="https://user-images.githubusercontent.com/76422688/201467928-1726fc48-a45d-4b19-b139-206c0f0f95c4.png">
 
