@@ -107,10 +107,26 @@ line1=point1+λ(point1-point2)
 line2=point2+μ(point3-point2)
 ```
 So we can use two direction vectors to from a normal
+x is Cross product
 ```
 normal=(point1-point2)x(point3-point2)
 ```
 The red bar is the normal of the triangle
 
 <img width="549" alt="截屏2022-11-10 下午8 49 34" src="https://user-images.githubusercontent.com/76422688/201467928-1726fc48-a45d-4b19-b139-206c0f0f95c4.png">
+
+We set the sun light is the yellow bar and it is a displacement vector
+We must know the angle between two bar
+<img width="549" alt="截屏2022-11-10 下午8 50 13" src="https://user-images.githubusercontent.com/76422688/201468032-7db507ce-67dd-4d18-b957-f93c6e74b495.png">
+the formular is （. is Dot Product）
+```
+cosϴ=(vector1 . vector2)/(|vector1|*|vector2|)
+```
+
+Different triangle have different normal 
+We can use the different angle  between normal and sun light to determine the intensity of light
+<img width="549" alt="截屏2022-11-10 下午8 54 34" src="https://user-images.githubusercontent.com/76422688/201468254-fa4f6a8a-ab65-435d-94f8-ae5111623cc7.png">
+
+
+
 
