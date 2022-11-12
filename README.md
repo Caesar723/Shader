@@ -34,5 +34,20 @@ rotated_y=[
 ```
 So there is a transition matrix make the orgin become to rotated_y
 ```
-transition matrix * origin=rotated_y
+transition matrix * origin = rotated_y
 ```
+In this way, we can calculate that the transition matrix of y is 
+```
+transition_y=[
+[ cosϴ , 0   ,  sinϴ],
+[ 0    , 1   , 0    ],
+[ -sinϴ, 0   ,  cosϴ]
+]
+```
+
+Likewise, the rotation of x and z also obey this rule
+
+So the rotation of x is
+<img width="742" alt="截屏2022-11-10 下午7 14 45" src="https://user-images.githubusercontent.com/76422688/201466905-634887da-ed5d-4997-93df-77924e4b911f.png">
+
+
