@@ -107,7 +107,7 @@ line1=point1+λ(point1-point2)
 line2=point2+μ(point3-point2)
 ```
 So we can use two direction vectors to from a normal
-x is Cross product
+(x is Cross product)
 ```
 normal=(point1-point2)x(point3-point2)
 ```
@@ -129,6 +129,21 @@ Different triangle have different normal
 We can use the different angle  between normal and sun light to determine the intensity of light
 
 <img width="549" alt="截屏2022-11-10 下午8 54 34" src="https://user-images.githubusercontent.com/76422688/201468254-fa4f6a8a-ab65-435d-94f8-ae5111623cc7.png">
+
+
+## Resize
+
+Now, I have two squares
+
+when the camera toward z axis , two squares have the same size
+
+<img width="782" alt="截屏2022-11-12 下午2 38 55" src="https://user-images.githubusercontent.com/76422688/201505423-d4e3c59b-fd03-4b1e-b5db-d66d7c236992.png">
+
+But actually, they have different size and they have different z axis
+
+<img width="782" alt="截屏2022-11-12 下午2 39 27" src="https://user-images.githubusercontent.com/76422688/201505444-36da451d-277b-4a82-a873-5fd54ca8d0be.png">
+
+So we can use similar triangles to achieve it.
 
 
 
