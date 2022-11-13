@@ -96,6 +96,8 @@ Finally , we connect each point and from a sphere which contain lots of triangle
 
 ## How achieve shader
 Now , we take a triangle from this sphere
+
+
 <img width="549" alt="截屏2022-11-10 下午8 44 58" src="https://user-images.githubusercontent.com/76422688/201467596-7cfa9d34-ff10-4522-9a75-2a1fc879aede.png">
 
 We must know the normal of this triangle 
